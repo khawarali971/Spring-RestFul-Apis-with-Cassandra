@@ -1,7 +1,8 @@
 # Spring-RestFul-Apis-with-Cassandra
-Spring Api development with Cassandra
 
-Create keyspace and table in cassandra with following ddls
+# Spring Api development with Cassandra
+
+# Create keyspace and table in cassandra with following ddls
 CREATE KEYSPACE "mydb"
 WITH replication = {
 	'class' : 'SimpleStrategy',
@@ -15,17 +16,17 @@ create table product(
 	price text
 );
 
-and use following endpoints to access 
-for post 
+# Use following endpoints to access 
+# for post 
 localhost:8080/api/create
-for get
+# for get
 localhost:8080/api/get/{id}
-for get all 
+# for get all 
 localhost:8080/api/getall
-for delete all
+# for delete all
 localhost:8080/api/deleteall
-for delete by id 
+# for delete by id 
 localhost:8080/api/delete/{id}
-for update 
+# for update 
 localhost:8080/api/update/{id}
 
